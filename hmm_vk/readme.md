@@ -36,31 +36,10 @@ social_publishers/vk_publisher.py: Работа с API ВКонтакте для
 social_stats/vk_stats.py: Сбор статистики из ВКонтакте.
 
 ## Структура проекта
-
-smm-expert-ai/
-│
-├── app/
-│   ├── __init__.py
-│   ├── models.py
-│   ├── auth.py
-│   ├── smm.py
-│   ├── templates/
-│   └── static/
-│
-├── generators/
-│   ├── text_gen.py
-│   └── image_gen.py
-├── social_publishers/
-│   └── vk_publisher.py
-├── social_stats/
-│   └── vk_stats.py
-├── config.py
-├── requirements.txt
-└── README.md
+<img width="201" height="423" alt="image" src="https://github.com/user-attachments/assets/c77b339d-f0da-452b-8139-a13ec3e21cf4" />
 
 
-
-Принцип работы
+## Принцип работы
 
 Генерация поста: Пользователь вводит тему и стиль, приложение генерирует пост через GPT.
 Создание изображения: На основе поста генерируется описание изображения, которое создается через OpenAI API.
